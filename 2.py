@@ -8,10 +8,10 @@ def main():
 
 def get_number():
     while True:
-        radius = input("Enter the number you want to check: ")
+        number = input("Enter the number you want to check: ")
 
-        if radius.isdigit():
-            return int(radius)
+        if number.isdigit():
+            return int(number)
         
         print("Invalid input. Please enter a valid number.")
 
