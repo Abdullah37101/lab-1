@@ -33,7 +33,7 @@ def get_number():
         number = input("Enter a number you want to add to the sum: ")
 
         try:
-            return int(number)
+            return float(number)
         
         except ValueError:
             print("Invalid input. Please enter a valid number.")

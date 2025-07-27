@@ -11,7 +11,7 @@ def get_upper_bound():
         if number.isdigit():
             return int(number)
         
-        print("Invalid input. Please enter a valid whole number.")
+        print("Invalid input. Please enter a valid natural number.")
 
 
 if __name__ == "__main__":
