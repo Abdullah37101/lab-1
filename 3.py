@@ -32,10 +32,11 @@ def get_number():
     while True:
         number = input("Enter a number you want to add to the sum: ")
 
-        if number.isdigit():
+        try:
             return int(number)
         
-        print("Invalid input. Please enter a valid number.")
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
 
 
 if __name__ == "__main__":

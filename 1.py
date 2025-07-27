@@ -9,10 +9,11 @@ def get_radius():
     while True:
         radius = input("Enter the radius of the circle: ")
 
-        if radius.isdigit():
+        try:
             return float(radius)
         
-        print("Invalid input. Please enter a valid number.")
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
         
 if __name__ == "__main__":
     main()

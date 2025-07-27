@@ -11,10 +11,11 @@ def get_upper_bound():
     while True:
         number = input("Enter the upper bound of the natural numbers summation pattern: ")
 
-        if number.isdigit():
+        try:
             return int(number)
         
-        print("Invalid input. Please enter a valid number.")
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
 
 
 if __name__ == "__main__":

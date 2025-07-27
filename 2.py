@@ -12,12 +12,12 @@ def is_even(number):
 
 def get_number():
     while True:
-        number = input("Enter the number you want to check: ")
+        number = input("Enter the whole number you want to check: ")
 
         if number.isdigit():
             return int(number)
         
-        print("Invalid input. Please enter a valid number.")
+        print("Invalid input. Please enter a valid whole number.")
 
 
 if __name__ == "__main__":
