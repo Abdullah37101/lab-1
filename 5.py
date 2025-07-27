@@ -27,7 +27,7 @@ def is_prime(number):
 
 def get_number():
     while True:
-        number = input("Enter the natural number you want to check: ")
+        number = input("Enter the natural number you want to check: ").strip()
 
         if number.isdigit():
             return int(number)

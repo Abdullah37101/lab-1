@@ -30,7 +30,7 @@ def get_numbers(count):
 
 def get_number():
     while True:
-        number = input("Enter a number you want to add to the sum: ")
+        number = input("Enter a number you want to add to the sum: ").strip()
 
         try:
             return float(number)

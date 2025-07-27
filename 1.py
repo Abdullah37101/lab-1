@@ -7,7 +7,7 @@ def main():
 
 def get_radius():
     while True:
-        radius = input("Enter the radius of the circle: ")
+        radius = input("Enter the radius of the circle: ").strip()
 
         try:
             return float(radius)

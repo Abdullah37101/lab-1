@@ -6,7 +6,7 @@ def main():
 
 def get_upper_bound():
     while True:
-        number = input("Enter the upper bound of the even numbers: ")
+        number = input("Enter the upper bound of the even numbers: ").strip()
 
         if number.isdigit():
             return int(number)

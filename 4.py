@@ -9,7 +9,7 @@ def print_pattern(upper_bound):
 
 def get_upper_bound():
     while True:
-        number = input("Enter the upper bound of the natural numbers summation pattern: ")
+        number = input("Enter the upper bound of the natural numbers summation pattern: ").strip()
 
         if number.isdigit():
             return int(number)

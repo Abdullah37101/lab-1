@@ -12,7 +12,7 @@ def is_even(number):
 
 def get_number():
     while True:
-        number = input("Enter the whole number you want to check: ")
+        number = input("Enter the whole number you want to check: ").strip()
 
         try:
             return int(number)
